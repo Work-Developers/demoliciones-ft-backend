@@ -10,7 +10,7 @@ router.post("/api/send", async (req, res) => {
     return res.status(400).send("Faltan datos obligatorios en la solicitud");
   }
   const msg = {
-    to: "jhon.macias.dev@gmail.com",
+    to: "noreply.ftdemoliciones@gmail.com",
     from: "Solicitud de Servicios <jhonmacias08031994@gmail.com>",
     subject: `Solicitud de servicios de ${titulo}`,
     text: `${titulo}`,
